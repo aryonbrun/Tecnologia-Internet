@@ -14,7 +14,7 @@ trait Post {
                 return (new InsertDataController)->exec();
             break;
             case '/aryon02':
-                return (new GuilhermeController)->aryon02();
+                return (new AryonController)->aryon02();
             break;
 
         }
