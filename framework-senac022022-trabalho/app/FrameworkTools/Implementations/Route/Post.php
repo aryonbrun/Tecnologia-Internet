@@ -3,7 +3,7 @@
 namespace App\FrameworkTools\Implementations\Route;
 
 use App\Controllers\InsertDataController;
-use App\Controllers\GuilhermeController;
+use App\Controllers\AryonController;
 
 trait Post {
     
@@ -13,7 +13,7 @@ trait Post {
             case '/insert-data':
                 return (new InsertDataController)->exec();
             break;
-            case '/germano2':
+            case '/aryon02':
                 return (new GuilhermeController)->aryon02();
             break;
 

@@ -4,7 +4,7 @@ namespace App\FrameworkTools\Implementations\Route;
 
 use App\Controllers\HelloWorldController;
 use App\Controllers\TrainQueryController;
-use App\Controllers\GuilhermeController;
+use App\Controllers\AryonController;
 
 trait Get {
     
@@ -18,7 +18,7 @@ trait Get {
             case '/train-query':
                 return (new TrainQueryController)->execute();
             break;
-            case '/germano1':
+            case '/aryon01':
                 return (new AryonController)->aryon01();
             break;
         }
