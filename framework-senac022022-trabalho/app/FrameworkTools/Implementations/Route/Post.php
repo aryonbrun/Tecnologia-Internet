@@ -11,10 +11,10 @@ trait Post {
         switch (self::$processServerElements->getRoute()) {
                     
             case '/insert-data':
-                return (new InsertDataController)->exec();
+                return (new InsertDataController) -> exec();
             break;
             case '/aryon02':
-                return (new AryonController)->aryon02();
+                return (new AryonController) -> aryon02();
             break;
 
         }

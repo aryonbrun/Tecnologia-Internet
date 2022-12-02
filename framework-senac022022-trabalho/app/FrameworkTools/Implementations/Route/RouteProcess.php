@@ -14,7 +14,7 @@ class RouteProcess{
     use Get;
     use Post;
     use Put;
-    //use Delete;
+    use Delete;
 
     private static $processServerElements;
 
@@ -30,7 +30,7 @@ class RouteProcess{
                 return self::post();
             case 'PUT':
                 return self::put();
-            case 'DELETE':
+            case 'Delete':
                 return self::delete();
         }
     }    
