@@ -1,0 +1,22 @@
+
+Faça um relatório sobre o uso do padrão de Projeto Factort Method.
+O relatório deve contar as seguintes informações:
+
+1 - O que é o padrão Factory Method
+
+A interface pode criar objetos em uma superclasse, permitindo que as subclasses alterem o tipo de objeto que sera criado.
+
+2 - Quando esse padrão de projeto deve ser usado
+
+Quando precisar economizar recursos do sistema
+
+3 - Exemplo do uso do Factory Method em sua linguagem favorita
+
+abstract class EmpresarioEsportes{
+    public abstract Esportes CriaEsporte();
+    {
+        return new Player();
+    }
+}
+public class Player : Esporte{}
+
